@@ -1,3 +1,9 @@
+## 0.3.0 (2023-09-10)
+
+### Feat
+
+- **hello.py**: change returned HelloWorld string
+
 ## 0.2.2 (2023-09-09)
 
 ### Fix
