@@ -36,11 +36,17 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
 # Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default.
-select = ["E", "F"]
-ignore = []
+select = ["ALL"]
+ignore = [
+    "D104", # Missing docstring in public package
+    "D100", # Missing docstring in public module
+    "D103", # Missing docstring in public function
+    "D211", # No blank lines allowed before class docstring
+    "D212", # Multi-line docstring summary should start at the first line
+]
 
 # Allow autofix for all enabled rules (when `--fix`) is provided.
-fixable = ["A", "B", "C", "D", "E", "F", "G", "I", "N", "Q", "S", "T", "W", "ANN", "ARG", "BLE", "COM", "DJ", "DTZ", "EM", "ERA", "EXE", "FBT", "ICN", "INP", "ISC", "NPY", "PD", "PGH", "PIE", "PL", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "SIM", "SLF", "TCH", "TID", "TRY", "UP", "YTT"]
+fixable = ["ALL"]
 unfixable = []
 
 # Exclude a variety of commonly ignored directories.
@@ -74,8 +80,8 @@ line-length = 88
 # Allow unused variables when underscore-prefixed.
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
-# Assume Python 3.8
-target-version = "py38"
+# Python 3.7 is the minimum supported version.
+target-version = "py37"
 
 
 [tool.ruff.mccabe]
