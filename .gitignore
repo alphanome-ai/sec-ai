@@ -3,6 +3,7 @@
 ###################################
 .vscode/
 .DS_Store
+.ruff_cache/
 
 ##############################################
 ### General .gitignore for Python projects ###
