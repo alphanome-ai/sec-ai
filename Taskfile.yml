@@ -4,16 +4,14 @@ tasks:
   lint:
     desc: Lint the code
     cmds:
-      - black sec_ai/
-      - flake8 sec_ai/
-      - isort sec_ai/
+      - ruff check sec_ai/ --fix
       - mypy sec_ai/
 
   test:
     desc: Run tests and check code coverage
     cmds:
       - coverage run -m pytest tests/
-      - coverage report --fail-under=80 --skip-covered
+      - coverage report --fail-under=100 --skip-covered
 
   prepare: 
     desc: Lint the code and run all checks
