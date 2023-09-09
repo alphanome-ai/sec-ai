@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sec-ai"
-version = "0.2.1"
+version = "0.2.2"
 description = "Leverage AI to analyze and interpret SEC filings data, providing valuable insights for investors, fintech developers, and researchers."
 authors = ["Alphanome.AI <info@alphanome.ai>"]
 readme = "README.md"
