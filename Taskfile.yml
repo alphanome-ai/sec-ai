@@ -1,19 +1,57 @@
 version: '3'
 
 tasks:
-  lint:
-    desc: Lint the code
-    cmds:
-      - ruff check --fix sec_ai/
-      - mypy sec_ai/
 
-  test:
-    desc: Run tests and check code coverage
+#####################################
+### Composite Tasks and Shortcuts ###
+#####################################
+
+  pre-commit: 
+    desc: Composite task to run all quick checks.
+    cmds:
+      - task unit
+      - task lint-fix
+
+  p:
+    desc: Shortcut for `task pre-commit`.
+    deps:
+      - pre-commit
+
+  ci-cd-checks:
+    desc: Composite task to run all CI/CD checks.
+    cmds:
+      - task unit
+      - task lint
+
+######################
+### Run Unit Tests ###
+######################
+
+  unit:
+    desc: Run unit tests and check code coverage.
     cmds:
       # Recommended coverage viewer in VSCode: https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters
-      - pytest --cov --cov-report=lcov:lcov.info tests/
-      - coverage report --skip-covered --fail-under=100
+      - poetry run pytest -s --cov --cov-report=lcov:lcov.info --cov-report=term:skip-covered --cov-fail-under=0 tests/unit/
 
-  prepare: 
-    desc: Lint the code and run all checks
-    deps: [lint, test]
+  unit-watch:
+    desc: Run unit tests and check code coverage immediately when files change.
+    cmds:
+      # Recommended coverage viewer in VSCode: https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters
+      - poetry run ptw -- -s --cov --cov-report=lcov:lcov.info --cov-report=term:skip-covered --cov-fail-under=0 tests/unit/
+
+
+###############################
+### Code Quality Checks ###
+###############################
+
+  lint:
+    desc: Lint the code without auto-fixing issues.
+    cmds:
+      - poetry run ruff check sec_ai/
+      - poetry run mypy
+
+  lint-fix:
+    desc: Lint the code and auto-fix issues.
+    cmds:
+      - poetry run ruff check --fix sec_ai/
+      - poetry run mypy

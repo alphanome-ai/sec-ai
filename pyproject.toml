@@ -1,13 +1,28 @@
 [tool.poetry]
 name = "sec-ai"
 version = "0.3.0"
-description = "Leverage AI to analyze and interpret SEC filings data, providing valuable insights for investors, fintech developers, and researchers."
+description = "A comprehensive open-source toolkit for AI-powered analysis and interpretation of SEC EDGAR filings, providing valuable insights for investors, fintech developers, and researchers."
 authors = ["Alphanome.AI <info@alphanome.ai>"]
 readme = "README.md"
-
+repository = "https://github.com/alphanome-ai/sec-ai"
+license = "MIT"
+classifiers = [
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 2 - Pre-Alpha",
+    "Natural Language :: English",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Operating System :: OS Independent",
+]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+sec-parser = "^0.9.0.post14"
+python-dotenv = "^1.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -17,6 +32,9 @@ commitizen = "^3.8.1"
 pre-commit = "^3.4.0"
 ruff = "^0.0.287"
 pytest-cov = "^4.1.0"
+streamlit = "^1.27.0"
+streamlit-antd-components = "^0.2.1"
+pytest-watch = "^4.2.0"
 
 
 [tool.commitizen]
@@ -38,20 +56,21 @@ source = ["sec_ai"]
 
 
 [tool.ruff]
-# Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default.
 select = ["ALL"]
 ignore = [
-    "D100",  # Missing docstring in public module
-    "D101",  # Missing docstring in public class
-    "D102",  # Missing docstring in public method
-    "D103",  # Missing docstring in public function
-    "D104",  # Missing docstring in public package
-    "D105",  # Missing docstring in magic method
-    "D107",  # Missing docstring in __init__
-    "D203",  # 1 blank line required before class docstring
-    "D205",  # 1 blank line required between summary line and description
-    "D212",  # Multi-line docstring summary should start at the first line
-]
+    "D100",    # Missing docstring in public module
+    "D101",    # Missing docstring in public class
+    "D102",    # Missing docstring in public method
+    "D103",    # Missing docstring in public function
+    "D104",    # Missing docstring in public package
+    "D105",    # Missing docstring in magic method
+    "D107",    # Missing docstring in __init__
+    "D203",    # 1 blank line required before class docstring
+    "D205",    # 1 blank line required between summary line and description
+    "D212",    # Multi-line docstring summary should start at the first line
+    "ANN101",  # Missing type annotation for self in method
+    "ANN102",  # Missing type annotation for cls in classmethod
+    ]
 
 # Allow autofix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
@@ -80,7 +99,7 @@ exclude = [
     "dist",
     "node_modules",
     "venv",
-]
+    ]
 
 # Same as Black.
 line-length = 88
@@ -88,8 +107,8 @@ line-length = 88
 # Allow unused variables when underscore-prefixed.
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
-# Python 3.7 is the minimum supported version.
-target-version = "py37"
+# Python 3.9 is the minimum supported version.
+target-version = "py39"
 
 
 [tool.ruff.mccabe]

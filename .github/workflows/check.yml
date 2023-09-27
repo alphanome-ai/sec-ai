@@ -1,0 +1,43 @@
+name: CI/CD Checks
+
+on:
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
+  schedule:
+    - cron: '0 0 * * 1'  # Runs at 00:00 UTC every Monday
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        python-version: ['3.9', '3.10', '3.11']
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: "Setup Python, Poetry and Dependencies"
+      uses: packetcoders/action-setup-cache-python-poetry@main
+      with:
+        python-version: "${{ matrix.python-version }}"
+        poetry-version: "${{ vars.POETRY_VERSION }}"
+    - name: Install Task
+      run: |
+        sudo sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin
+
+    - name: Install the library
+      run: poetry install --no-interaction --only-root
+    - name: Run CI-CD-checks
+      run: poetry run task ci-cd-checks
+
+    - name: Upload coverage reports to Codecov
+      if: matrix.python-version == vars.PRIMARY_PYTHON_VERSION
+      uses: codecov/codecov-action@v3
+      env:
+        fail_ci_if_error: true
