@@ -34,8 +34,9 @@
 
 <div align="left">
   A comprehensive open-source toolkit for AI-powered analysis and interpretation of SEC EDGAR filings, providing valuable insights for investors, fintech developers, and researchers.
-<div align="center">
 </div>
+<br>
+<div align="center">
   <b>
   <a href="https://github.com/alphanome-ai/sec-ai/discussions">Discussions</a> |
   <a href="https://github.com/alphanome-ai/sec-ai/issues">Issues</a> |
