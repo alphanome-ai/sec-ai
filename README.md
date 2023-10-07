@@ -39,6 +39,7 @@
 <br>
 <div align="center">
   <b>
+  <a href="https://sec.app.alphanome.dev">Demo</a> |
   <a href="https://github.com/alphanome-ai/sec-ai/discussions">Discussions</a> |
   <a href="https://github.com/alphanome-ai/sec-ai/issues">Issues</a> |
   <a href="https://github.com/alphanome-ai/sec-ai/issues">Backlog</a>
@@ -51,6 +52,8 @@
 `sec-ai` is an open-source project designed to provide a comprehensive toolset for analyzing and interpreting data from SEC filings. Utilizing advanced AI technologies, this project aims to serve a wide range of users, from individual investors to researchers and regulatory bodies. 
 
 The project leverages [`alphanome-ai/sec-parser`](https://github.com/alphanome-ai/sec-parser) for its data extraction needs, an essential component that simplifies the parsing of SEC EDGAR HTML documents into a structured and analyzable format.
+
+[**Explore the Demo!**](https://sec.app.alphanome.dev/)
 
 # Installation
 
