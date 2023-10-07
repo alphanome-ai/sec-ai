@@ -21,8 +21,11 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
-sec-parser = "^0.9.0.post14"
 python-dotenv = "^1.0.0"
+streamlit = "^1.27.1"
+streamlit-antd-components = "^0.2.1"
+streamlit-pills = "^0.3.0"
+sec-parser = "^0.11.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -32,8 +35,6 @@ commitizen = "^3.8.1"
 pre-commit = "^3.4.0"
 ruff = "^0.0.287"
 pytest-cov = "^4.1.0"
-streamlit = "^1.27.0"
-streamlit-antd-components = "^0.2.1"
 pytest-watch = "^4.2.0"
 
 

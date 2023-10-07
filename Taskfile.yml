@@ -2,6 +2,16 @@ version: '3'
 
 tasks:
 
+##########################
+### Launch the Project ###
+##########################
+
+  web:
+    desc: Launch the Web Application.
+    cmds:
+      # PYTHONPATH is added to make streamlit watch file changes. Read more: https://docs.streamlit.io/knowledge-base/using-streamlit/streamlit-watch-changes-other-modules-importing-app
+      - export PYTHONPATH=$PYTHONPATH:$(pwd)/sec_ai; poetry run streamlit run sec_ai/web/app.py --server.runOnSave=true
+
 #####################################
 ### Composite Tasks and Shortcuts ###
 #####################################
@@ -26,6 +36,7 @@ tasks:
 ######################
 ### Run Unit Tests ###
 ######################
+# Note: also update .codecov.yml when changing the target coverage.
 
   unit:
     desc: Run unit tests and check code coverage.

@@ -10,8 +10,8 @@
   <a href="https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#experimental"><img src="https://img.shields.io/badge/stability-experimental-orange.svg" alt="Experimental"></a>
   <br>
   <b>Health ➔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
-  <a href="https://github.com/alphanome-ai/sec-ai/actions/workflows/check.yml"><img alt="GitHub Workflow Status: check.yml" src="https://img.shields.io/github/actions/workflow/status/alphanome-ai/sec-ai/check.yml?label=ci"></a>
-  <a href="https://github.com/alphanome-ai/sec-ai/actions/workflows/release.yml"><img alt="GitHub Workflow Status: release.yml" src="https://img.shields.io/github/actions/workflow/status/alphanome-ai/sec-ai/release.yml?label=cd"></a>
+  <a href="https://github.com/alphanome-ai/sec-ai/actions/workflows/ci.yml"><img alt="GitHub Workflow Status: ci.yml" src="https://img.shields.io/github/actions/workflow/status/alphanome-ai/sec-ai/ci.yml?label=ci"></a>
+  <a href="https://github.com/alphanome-ai/sec-ai/actions/workflows/cd.yml"><img alt="GitHub Workflow Status: cd.yml" src="https://img.shields.io/github/actions/workflow/status/alphanome-ai/sec-ai/cd.yml?label=cd"></a>
   <a href="https://github.com/alphanome-ai/sec-ai/commits/main"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/alphanome-ai/sec-ai"></a>  
   <br>
   <b>Quality ➔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
