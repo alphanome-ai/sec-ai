@@ -36,7 +36,6 @@ jobs:
         fi
         poetry build
         poetry publish --username __token__ --password ${{ secrets.PUBLIC_PYPI_API_TOKEN }}
-        
     - name: Initiate Website Deployment
       run: |
         curl -X POST \
