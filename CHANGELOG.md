@@ -1,3 +1,10 @@
+## 0.5.0 (2023-10-09)
+
+### Feat
+
+- **ci-cd**: translate curl command to GitHub Action for repository dispatch
+- add documentation infrastructure
+
 ## 0.4.0 (2023-10-07)
 
 ### Feat
