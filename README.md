@@ -45,6 +45,7 @@
   <a href="https://sec-ai.rtfd.io">Read Docs</a> |
   <a href="https://github.com/alphanome-ai/sec-ai/discussions">Ask Questions</a> |
   <a href="https://github.com/alphanome-ai/sec-ai/issues">Report Bugs</a>
+  <a href="https://github.com/orgs/alphanome-ai/projects/3">Roadmap</a>
   </b>
 </div>
 <br>
@@ -59,6 +60,7 @@ The project leverages [`alphanome-ai/sec-parser`](https://github.com/alphanome-a
 - Read the [**Documentation**](https://sec-ai.rtfd.io)
 - Ask questions in [**Discussions**](https://github.com/alphanome-ai/sec-ai/discussions)
 - Report bugs in [**Issues**](https://github.com/alphanome-ai/sec-ai/issues)
+- Check out the [**Roadmap**](https://github.com/orgs/alphanome-ai/projects/3)
 
 # Installation
 
