@@ -165,13 +165,13 @@ css = ["tinycss2 (>=1.1.0,<1.3)"]
 
 [[package]]
 name = "blinker"
-version = "1.6.2"
+version = "1.6.3"
 description = "Fast, simple object-to-object and broadcast signaling"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "blinker-1.6.2-py3-none-any.whl", hash = "sha256:c3d739772abb7bc2860abf5f2ec284223d9ad5c76da018234f6f50d6f31ab1f0"},
-    {file = "blinker-1.6.2.tar.gz", hash = "sha256:4afd3de66ef3a9f8067559fb7a1cbe555c17dcbe15971b05d1b625c3e7abe213"},
+    {file = "blinker-1.6.3-py3-none-any.whl", hash = "sha256:296320d6c28b006eb5e32d4712202dbcdcbf5dc482da298c2f44881c43884aaa"},
+    {file = "blinker-1.6.3.tar.gz", hash = "sha256:152090d27c1c5c722ee7e48504b02d76502811ce02e1523553b4cf8c8b3d3a8d"},
 ]
 
 [[package]]
@@ -2603,12 +2603,12 @@ snowflake = ["snowflake-connector-python (>=2.8.0)", "snowflake-snowpark-python 
 
 [[package]]
 name = "streamlit-antd-components"
-version = "0.2.1"
+version = "0.2.2"
 description = "streamlit components of antd design"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "streamlit_antd_components-0.2.1-py3-none-any.whl", hash = "sha256:34cde34ac8e7711de8118b7b37ca88b45fdd7c29b12904c84e05500283401858"},
+    {file = "streamlit_antd_components-0.2.2-py3-none-any.whl", hash = "sha256:0205e7746f4177c9d8bb94742c7e05d8a3c2e3674e4834c494763568dbaefbf7"},
 ]
 
 [package.dependencies]
@@ -2930,4 +2930,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.9.7 || >3.9.7,<4.0"
-content-hash = "d25a04f1818daff3565f74f4cbd76912368b3fcdb657837faf092c3b3d52900d"
+content-hash = "aeca581a898b210b0852343fc57b585ce6344657852b4f9505693b0b46f70641"
