@@ -1,3 +1,9 @@
+## 0.5.1 (2023-10-10)
+
+### Refactor
+
+- **dev_tools**: standardize naming
+
 ## 0.5.0 (2023-10-09)
 
 ### Feat
