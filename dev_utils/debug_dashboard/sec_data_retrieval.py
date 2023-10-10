@@ -3,7 +3,7 @@ from __future__ import annotations
 import sec_parser as sp
 import streamlit as st
 
-from sec_ai.web.config import get_config
+from dev_utils.debug_dashboard.config import get_config
 
 
 class SecDataRetriever:

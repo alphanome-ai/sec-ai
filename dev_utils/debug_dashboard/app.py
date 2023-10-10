@@ -3,10 +3,7 @@ from __future__ import annotations
 import streamlit as st
 import streamlit_pills as stp  # type: ignore # noqa: PGH003
 
-from sec_ai.web.dashboard_helpers_and_types import DemoOption
-from sec_ai.web.streamlit_ui_customizations import (
-    st_hide_page_element,
-)
+from dev_utils.debug_dashboard.streamlit_utils import DemoOption, st_hide_page_element
 
 # Setup page
 st.set_page_config(
@@ -52,6 +49,6 @@ selected_demo = DemoOption.get_by_name(
 left, right = st.columns(2)
 if selected_demo == demo_options["MDNA_SUMMARIZATION"]:
     with left, st.expander("**SEC EDGAR** INPUT", expanded=True):
-        st.write("left")
+        st.write("lefft")
     with right, st.expander("**SEC-AI** OUTPUT", expanded=True):
         st.write("right")

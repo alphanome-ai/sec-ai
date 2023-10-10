@@ -62,11 +62,12 @@ tasks:
 ### Developer Tools ###
 #######################
 
-  web:
-    desc: Launch the Web Application.
+  dash:
+    desc: Launch the debug dashboard for debugging and demos.
     cmds:
-      # PYTHONPATH is added to make streamlit watch file changes. Read more: https://docs.streamlit.io/knowledge-base/using-streamlit/streamlit-watch-changes-other-modules-importing-app
-      - export PYTHONPATH=$PYTHONPATH:$(pwd)/sec_ai; poetry run streamlit run sec_ai/web/app.py --server.runOnSave=true
+      # Extend PYTHONPATH to allow Streamlit to watch for file changes.
+      # Learn more: https://docs.streamlit.io/knowledge-base/using-streamlit/streamlit-watch-changes-other-modules-importing-app
+      - export PYTHONPATH=$PYTHONPATH:$(pwd)/sec_parser && poetry run streamlit run dev_utils/debug_dashboard/app.py --server.runOnSave=true
 
   docs:
     desc: Run the documentation server.
