@@ -37,6 +37,7 @@ pytest-watch = "^4.2.0"
 streamlit = "^1.27.2"
 streamlit-antd-components = "^0.2.2"
 streamlit-pills = "^0.3.0"
+ipykernel = "^6.25.2"
 
 
 
@@ -47,6 +48,7 @@ myst-parser = "^2.0.0"
 nbsphinx = "^0.9.3"
 sphinx-autoapi = "^3.0.0"
 sphinx-rtd-theme = "^1.3.0"
+jupyter-black = "^0.3.4"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
