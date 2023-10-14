@@ -1,6 +1,6 @@
 # How to Contribute
 
-Contributing to `sec-ai` is a rewarding way to improve this open-source project. Whether you are a user interested in expanding your knowledge or a developer who wants to dive deeper into the codebase, we have comprehensive guides to get you started.
+Contributing to `sec-ai` is a rewarding way to learn and improve this open-source project. Whether you are a user looking to expand your knowledge or a developer eager to delve into the codebase, this guide is here to help you get started.
 
 ## Environment Setup and Contribution Workflow
 
