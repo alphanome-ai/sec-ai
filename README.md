@@ -91,7 +91,7 @@ The root-level package `sec_ai` contains only the most common symbols. For more 
 To allow us to maintain backward compatibility with your code during internal structure refactoring for `sec-ai`, avoid deep or chained imports such as `sec_ai.sub_module.internal_utils import SomeInternalClass`.
 
 # Contributing
-For information about setting up the development environment, coding standards, and contribution workflows, please refer to our [CONTRIBUTING.md](https://github.com/alphanome-ai/sec-parser/blob/main/CONTRIBUTING.md) guide.
+For information about setting up the development environment, coding standards, and contribution workflows, please refer to our [CONTRIBUTING.md](https://github.com/alphanome-ai/sec-ai/blob/main/CONTRIBUTING.md) guide.
 
 # License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/alphanome-ai/sec-parser/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/alphanome-ai/sec-ai/blob/main/LICENSE) file for details.
