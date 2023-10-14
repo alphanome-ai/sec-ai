@@ -38,6 +38,7 @@ streamlit = "^1.27.2"
 streamlit-antd-components = "^0.2.2"
 streamlit-pills = "^0.3.0"
 ipykernel = "^6.25.2"
+execnb = "^0.1.5"
 
 
 
