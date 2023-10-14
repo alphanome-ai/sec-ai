@@ -18,3 +18,11 @@ Alternatively, you can run the notebooks directly in your browser using Google C
 
 > **Note**
 Before contributing, we highly recommend familiarizing yourself with these guides. They will help you understand the structure and style of our codebase, enabling you to make effective contributions.
+
+For more examples and advanced usage, you can continue learning how to use `sec-ai` by referring to the [**User Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/user_guide.html), [**Developer Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/developer_guide.html), and [**Documentation**](https://sec-ai.rtfd.io).
+
+## 🚧 Under Construction 🚧
+
+> **Warning**
+We are currently finalizing a few key prerequisites for `sec-ai` within our [**sec-parser**](https://github.com/alphanome-ai/sec-parser) project, as detailed in our [**Roadmap**](https://github.com/orgs/alphanome-ai/discussions/categories/roadmap-future-plans).<br><br>Your anticipation for the launch of `sec-ai` is greatly appreciated. We are working diligently to ensure that `sec-ai` is ready to launch as soon as possible. To stay informed about our progress and to receive notifications when `sec-ai` is ready, please follow our [**Announcements**](https://github.com/orgs/alphanome-ai/discussions/categories/announcements) page.<br><br>**Get Involved**: If you're excited about our project and would like to contribute, we warmly invite you to do so! Check out our [**sec-parser/CONTRIBUTING.md**](https://github.com/alphanome-ai/sec-parser/blob/main/CONTRIBUTING.md) guide for details on how to get started.
+<br><br>Thank you for your interest and we look forward to sharing our progress with you soon.
