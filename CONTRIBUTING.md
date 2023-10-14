@@ -1,12 +1,12 @@
-# How to Contribute
+# How to Contribute?
 
 Contributing to `sec-ai` is a rewarding way to learn and improve this open-source project. Whether you are a user looking to expand your knowledge or a developer eager to delve into the codebase, this guide is here to help you get started.
 
-## Environment Setup and Contribution Workflow
+## Learning Workflows
 
-Before diving into the guides, we recommend setting up your environment and understanding our contribution workflow. Please visit [**Common Contributing Guidelines**](https://github.com/alphanome-ai/common-contributing-guidelines) for information on environment setup, coding standards, and contribution workflows that are common across our repositories.
+Before diving into the codebase guides, we recommend setting up your environment and understanding our contribution workflow. Please visit [**Common Contributing Guidelines**](https://github.com/alphanome-ai/common-contributing-guidelines) for information on environment setup, coding standards, and contribution workflows that are common across our repositories.
 
-## Guides
+## Learning Codebase
 
 If you are new to `sec-ai` and would like to get started, please refer to the [**Quickstart User Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/user_guide.html).
   
