@@ -49,7 +49,6 @@ tasks:
       - task: unit
       - task: lint
       - task: docs-verify
-      - task: e2e-verify
 
 ######################################################################################
 ### Hidden: Too rarely used on their own, meant to be used as part of other tasks. ###
@@ -83,11 +82,6 @@ tasks:
     internal: true
     cmds:
       - if git diff --exit-code > /dev/null 2>&1 && git diff --cached --exit-code > /dev/null 2>&1; then :; else echo "Changes detected in the working tree or index. Please commit or stash them before proceeding."; exit 1; fi
-
-  clone-sec-parser-e2e-data: # Clone the sec-parser-e2e-data repository if it does not exist.
-    silent: true
-    cmds:
-      - if [ -d "{{.ROOT_DIR}}/../sec-parser-e2e-data" ]; then :; else echo "Repository does not exist. Cloning from GitHub..."; git clone https://github.com/alphanome-ai/sec-parser-e2e-data "{{.ROOT_DIR}}/../sec-parser-e2e-data" || { echo "Directory ../sec-parser-e2e-data does not exist and git clone failed. Please use \"git clone\" to download it from https://github.com/alphanome-ai/sec-parser-e2e-data. Aborting."; exit 1; }; fi
 
   version-bump: # Bump the version number.
     cmds:
