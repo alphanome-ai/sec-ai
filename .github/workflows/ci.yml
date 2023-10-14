@@ -10,7 +10,10 @@ on:
   schedule:
     - cron: '0 0 * * 1'  # Runs at 00:00 UTC every Monday
   workflow_dispatch:
-  
+
+env:
+  ENVIRONMENT: ci_cd
+
 jobs:
   build:
     runs-on: ubuntu-latest

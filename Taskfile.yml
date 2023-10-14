@@ -67,7 +67,7 @@ tasks:
     cmds:
       # Extend PYTHONPATH to allow Streamlit to watch for file changes.
       # Learn more: https://docs.streamlit.io/knowledge-base/using-streamlit/streamlit-watch-changes-other-modules-importing-app
-      - export PYTHONPATH=$PYTHONPATH:$(pwd)/sec_parser && poetry run streamlit run dev_utils/debug_dashboard/app.py --server.runOnSave=true
+      - export PYTHONPATH=$PYTHONPATH:$(pwd)/sec_parser ENVIRONMENT=dev && poetry run streamlit run dev_utils/debug_dashboard/app.py --server.runOnSave=true
 
   docs:
     desc: Run the documentation server.

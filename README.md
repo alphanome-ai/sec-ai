@@ -43,9 +43,8 @@
   <b>
   <a href="https://sec.app.alphanome.dev">See Demo</a> |
   <a href="https://sec-ai.rtfd.io">Read Docs</a> |
-  <a href="https://github.com/alphanome-ai/sec-ai/discussions">Ask Questions</a> |
-  <a href="https://github.com/alphanome-ai/sec-ai/issues">Report Bugs</a> |
-  <a href="https://github.com/orgs/alphanome-ai/projects/3">Roadmap</a>
+  <a href="https://github.com/orgs/alphanome-ai/discussions">Join Discussions</a> |
+  <a href="https://github.com/alphanome-ai/sec-ai/issues">Report Bugs</a>
   </b>
 </div>
 <br>
@@ -58,49 +57,29 @@ The project leverages [`alphanome-ai/sec-parser`](https://github.com/alphanome-a
 
 - Explore the [**Demo**](https://sec.app.alphanome.dev/)
 - Read the [**Documentation**](https://sec-ai.rtfd.io)
-- Ask questions in [**Discussions**](https://github.com/alphanome-ai/sec-ai/discussions)
+- Join the [**Discussions**](https://github.com/orgs/alphanome-ai/discussions) to get help, propose ideas, or chat with the community
 - Report bugs in [**Issues**](https://github.com/alphanome-ai/sec-ai/issues)
-- Check out the [**Roadmap**](https://github.com/orgs/alphanome-ai/projects/3)
+- Stay updated and contribute to our project's direction in [**Announcements**](https://github.com/orgs/alphanome-ai/discussions/categories/announcements) and [**Roadmap**](https://github.com/orgs/alphanome-ai/discussions/categories/roadmap-future-plans)
 
-# Installation
+# Getting Started
 
-Open a terminal and run the following command to install `sec-ai`:
+To get started, first install the `sec-ai` package:
 
 ```bash
 pip install sec-ai
 ```
 
-# Usage
+> **Warning**
+We are currently finalizing a few key prerequisites for `sec-ai` within our [**sec-parser**](https://github.com/alphanome-ai/sec-parser) project, as detailed in our [**Roadmap**](https://github.com/orgs/alphanome-ai/discussions/categories/roadmap-future-plans).<br><br>Your anticipation for the launch of `sec-ai` is greatly appreciated. We are working diligently to ensure that `sec-ai` is ready to launch as soon as possible. To stay informed about our progress and to receive notifications when `sec-ai` is ready, please follow our [**Announcements**](https://github.com/orgs/alphanome-ai/discussions/categories/announcements) page.<br><br>**Get Involved**: If you're excited about our project and would like to contribute, we warmly invite you to do so! Check out our [**sec-parser/CONTRIBUTING.md**](https://github.com/alphanome-ai/sec-parser/blob/main/CONTRIBUTING.md) guide for details on how to get started.
+<br><br>Thank you for your interest and we look forward to sharing our progress with you soon.
 
-```python
-import sec_ai as sa
-
-# TODO: Examples are coming soon!
-```
-
-For more examples and advanced usage, you can continue learning how to use sec-ai by referring to the [**Quickstart User Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/user_guide.html).
-
-
-# Contributing
-
-Contributing to `sec-ai` is a rewarding way to improve this open-source project. Whether you are a user interested in expanding your knowledge or a developer who wants to dive deeper into the codebase, we have comprehensive guides to get you started.
-
-- **User Guide**: If you are new to `sec-ai` and would like to get started, please refer to the [**Quickstart User Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/user_guide.html).
-  
-- **Developer Guide**: For those interested in contributing to `sec-ai`, the [**Comprehensive Developer Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/developer_guide.html) provides an in-depth walkthrough of the codebase and offers examples to help you contribute effectively.
-
-Both guides are interactive and allow you to engage with the code and concepts as you learn. You can run and modify all the code examples for yourself by cloning the repository and running the respective notebooks in a Jupyter environment.
-
-Alternatively, you can run the notebooks directly in your browser using Google Colab.
-
-> **Note**
-Before contributing, we highly recommend familiarizing yourself with these guides. They will help you understand the structure and style of our codebase, enabling you to make effective contributions.
+For more examples and advanced usage, you can continue learning how to use `sec-ai` by referring to the [**User Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/user_guide.html), [**Developer Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/developer_guide.html), and [**Documentation**](https://sec-ai.rtfd.io).
 
 # Best Practices
 
 ### Importing modules
 
-1. Standard: `import sec_ai as sa`
+1. Standard: `import sec_ai as sai`
 1. Package-Level: `from sec_ai import SomeClass`
 1. Submodule: `from sec_ai import sub_module`
 1. Submodule-Level: `from sec_ai.sub_module import SomeClass`
@@ -111,5 +90,8 @@ The root-level package `sec_ai` contains only the most common symbols. For more 
 > **Warning**
 To allow us to maintain backward compatibility with your code during internal structure refactoring for `sec-ai`, avoid deep or chained imports such as `sec_ai.sub_module.internal_utils import SomeInternalClass`.
 
+# Contributing
+For information about setting up the development environment, coding standards, and contribution workflows, please refer to our [CONTRIBUTING.md](https://github.com/alphanome-ai/sec-parser/blob/main/CONTRIBUTING.md) guide.
+
 # License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/alphanome-ai/sec-parser/blob/main/LICENSE) file for details.

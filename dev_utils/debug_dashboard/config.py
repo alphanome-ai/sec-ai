@@ -3,11 +3,14 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 from enum import Enum
+from pathlib import Path
 
 import streamlit as st
+import toml
 
 
 class Environment(Enum):
+    UNKNOWN = "unknown"
     DEV = "dev"
     CI_CD = "ci_cd"
     PROD = "prod"
@@ -24,17 +27,27 @@ class Environment(Enum):
     def is_ci_cd(self) -> bool:
         return self == Environment.CI_CD
 
+    @property
+    def is_unknown(self) -> bool:
+        return self == Environment.UNKNOWN
+
 
 @dataclass
 class Config:
     environment: Environment
-    # You can obtain a free API key at https://sec-api.io
-    secapio_api_key: str | None
+    sec_ai_version: str
+    root_dir: Path
 
 
 @st.cache_data
 def get_config() -> Config:
+    root_dir = Path(__file__).parent.parent.parent
     return Config(
-        environment=Environment(os.environ.get("ENVIRONMENT", Environment.DEV)),
-        secapio_api_key=os.environ.get("SECAPIO_API_KEY"),
+        environment=Environment(
+            os.environ.get("ENVIRONMENT", "unknown").strip().lower()
+        ),
+        sec_ai_version=toml.load(root_dir / "pyproject.toml")["tool"]["poetry"][
+            "version"
+        ],
+        root_dir=root_dir,
     )
