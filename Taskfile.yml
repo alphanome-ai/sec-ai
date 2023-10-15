@@ -99,7 +99,7 @@ tasks:
     deps:
       - pre-commit-checks
 
-  p: # You can just run `task pp` instead of `task pre-push-checks`.
+  p: # You can just run `task p` instead of `task pre-push-checks`.
     deps:
       - pre-push-checks
 
@@ -115,6 +115,6 @@ tasks:
     deps:
       - monitor-unit-tests
 
-  x: # You can just run `task l` instead of `task launch-docs`.
+  x: # You can just run `task x` instead of `task launch-docs`.
     deps:
       - launch-docs
