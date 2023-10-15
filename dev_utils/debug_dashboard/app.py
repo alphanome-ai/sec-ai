@@ -43,7 +43,7 @@ We're thrilled to inform you that the `sec-parser` project is the final prerequi
 
 **Contribute to sec-parser**: If you're as excited about `sec-parser` and the upcoming sec-ai feature as we are, we warmly invite you to get involved!
 
- - Please visit our [Contribution Guide for sec-parser](https://github.com/alphanome-ai/sec-ai/blob/main/CONTRIBUTING.md).
+ - Please visit our [Contribution Guide for sec-parser](https://github.com/alphanome-ai/sec-parser/blob/main/CONTRIBUTING.md).
  - Explore [current Issues](https://github.com/alphanome-ai/sec-parser/issues) or propose new enhancements to `sec-parser`.
 
 Our targeted launch for sec-ai is approaching, and we're grateful for your continued anticipation and interest, which are invaluable to our endeavors.
