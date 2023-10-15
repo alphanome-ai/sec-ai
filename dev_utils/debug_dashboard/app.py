@@ -37,13 +37,16 @@ if True:
     st.info(
         """
 ### 🚧 Under Construction 🚧
-We are currently finalizing a few key prerequisites for `sec-ai` within our [**sec-parser**](https://github.com/alphanome-ai/sec-parser) project, as detailed in our [**Roadmap**](https://github.com/orgs/alphanome-ai/discussions/categories/roadmap-future-plans).
+We're thrilled to inform you that the `sec-parser` project is the final prerequisite for launching our eagerly anticipated feature, sec-ai. We're diligently working to ensure that it meets all the necessary standards and functionalities.
 
-Your anticipation for the launch of `sec-ai` is greatly appreciated. We are working diligently to ensure that `sec-ai` is ready to launch as soon as possible. To stay informed about our progress and to receive notifications when `sec-ai` is ready, please follow our [**Announcements**](https://github.com/orgs/alphanome-ai/discussions/categories/announcements) page.
+**Stay Informed**: For detailed information and updates specific to `sec-parser` and to be the first to know when sec-ai is launched, please [follow our Announcements page](https://github.com/orgs/alphanome-ai/discussions/categories/announcements).
 
-**Get Involved**: If you're excited about our project and would like to contribute, we warmly invite you to do so! Check out our [**sec-parser/CONTRIBUTING.md**](https://github.com/alphanome-ai/sec-parser/blob/main/CONTRIBUTING.md) guide for details on how to get started.
+**Contribute to sec-parser**: If you're as excited about `sec-parser` and the upcoming sec-ai feature as we are, we warmly invite you to get involved!
 
-Thank you for your interest and we look forward to sharing our progress with you soon.
+ - Please visit our [Contribution Guide for sec-parser](https://github.com/alphanome-ai/sec-ai/blob/main/CONTRIBUTING.md).
+ - Explore [current Issues](https://github.com/alphanome-ai/sec-parser/issues) or propose new enhancements to `sec-parser`.
+
+Our targeted launch for sec-ai is approaching, and we're grateful for your continued anticipation and interest, which are invaluable to our endeavors.
 """,
     )
 else:

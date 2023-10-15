@@ -114,3 +114,7 @@ tasks:
   m: # You can just run `task m` instead of `task monitor-unit-tests`.
     deps:
       - monitor-unit-tests
+
+  x: # You can just run `task l` instead of `task launch-docs`.
+    deps:
+      - launch-docs
