@@ -19,8 +19,6 @@ Alternatively, you can run the notebooks directly in your browser using Google C
 > **Note**
 Before contributing, we highly recommend familiarizing yourself with these guides. They will help you understand the structure and style of our codebase, enabling you to make effective contributions.
 
-For more examples and advanced usage, you can continue learning how to use `sec-ai` by referring to the [**User Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/user_guide.html), [**Developer Guide**](https://sec-ai.readthedocs.io/en/latest/notebooks/developer_guide.html), and [**Documentation**](https://sec-ai.rtfd.io).
-
 ## 🚧 Under Construction 🚧
 
 > **Warning**
