@@ -1,11 +1,13 @@
 from __future__ import annotations
 
+import rich.traceback
 import streamlit as st
 import streamlit_pills as stp
 
 from dev_utils.debug_dashboard.config import get_config  # type: ignore # noqa: PGH003
 from dev_utils.debug_dashboard.streamlit_utils import DemoOption, st_hide_page_element
 
+rich.traceback.install()
 # Setup page
 st.set_page_config(
     page_title="sec-ai: Advanced AI for SEC EDGAR Filings",
