@@ -62,6 +62,11 @@ The project leverages [`alphanome-ai/sec-parser`](https://github.com/alphanome-a
 - Stay updated and contribute to our project's direction in [**Announcements**](https://github.com/orgs/alphanome-ai/discussions/categories/announcements) and [**Roadmap**](https://github.com/orgs/alphanome-ai/discussions/categories/roadmap-future-plans)
 - Learn How to [**Contribute**](https://github.com/alphanome-ai/sec-ai/blob/main/CONTRIBUTING.md)
 
+# Disclaimer
+
+> **Warning**
+This project, `sec-ai`, is an independent, open-source initiative and has no affiliation, endorsement, or verification by the United States Securities and Exchange Commission (SEC). It utilizes public APIs and data provided by the SEC solely for research, informational, and educational objectives. This tool is not intended for financial advisement or as a substitute for professional investment advice or compliance with securities regulations. The creators and maintainers make no warranties, expressed or implied, about the accuracy, completeness, or reliability of the data and analyses presented. Use this software at your own risk. For accurate and comprehensive financial analysis, consult with qualified financial professionals and comply with all relevant legal requirements. The project maintainers and contributors are not liable for any financial or legal consequences arising from the use of this tool.
+
 # Getting Started
 
 To get started, first install the `sec-ai` package:
