@@ -58,6 +58,7 @@ The project leverages [`alphanome-ai/sec-parser`](https://github.com/alphanome-a
 - Explore the [**Demo**](https://sec.app.alphanome.dev/)
 - Read the [**Documentation**](https://sec-ai.rtfd.io)
 - Join the [**Discussions**](https://github.com/orgs/alphanome-ai/discussions) to get help, propose ideas, or chat with the community
+- Become part of our [**Discord**](https://discord.gg/w6bpyBW6) community
 - Report bugs in [**Issues**](https://github.com/alphanome-ai/sec-ai/issues)
 - Stay updated and contribute to our project's direction in [**Announcements**](https://github.com/orgs/alphanome-ai/discussions/categories/announcements) and [**Roadmap**](https://github.com/orgs/alphanome-ai/discussions/categories/roadmap-future-plans)
 - Learn How to [**Contribute**](https://github.com/alphanome-ai/sec-ai/blob/main/CONTRIBUTING.md)
