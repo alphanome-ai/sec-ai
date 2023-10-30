@@ -17,6 +17,7 @@
   <a href="https://github.com/alphanome-ai/sec-ai/commits/main"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/alphanome-ai/sec-ai"></a>  
   <br>
   <b>Quality ➔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+  <a href="https://app.codacy.com/gh/alphanome-ai/sec-ai/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://img.shields.io/codacy/grade/fe75201a60de4bc6b478052f6c4475b5"/></a>
   <a href="https://codecov.io/gh/alphanome-ai/sec-ai"><img src="https://codecov.io/gh/alphanome-ai/sec-ai/graph/badge.svg?token=KJLA96CBCN" alt="codecov" /></a>
   <a href="https://mypy-lang.org/"><img src="https://img.shields.io/badge/type%20checked-mypy-blue.svg"></a>
   <a href="https://github.com/psf/black"><img alt="Code Style: Black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
