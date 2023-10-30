@@ -28,7 +28,7 @@
   <a href="https://pypistats.org/packages/sec-ai"><img src="https://img.shields.io/pypi/dm/sec-ai.svg" alt="PyPI downloads"></a>
   <br>
   <b>Community ➔&nbsp;&nbsp;&nbsp;&nbsp;</b>
-  <a href="https://discord.gg/w6bpyBW6"><img alt="Discord" src="https://img.shields.io/discord/1164249739836018698"></a>
+  <a href="https://discord.gg/2MC3uJhBxs"><img alt="Discord" src="https://img.shields.io/discord/1164249739836018698"></a>
   <a href="http://hits.dwyl.com/alphanome-ai/sec-ai"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Falphanome-ai%2Fsec-ai.json%3Fshow%3Dunique" alt="HitCount" /></a>
   <a href="https://twitter.com/alphanomeai"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/alphanomeai"></a>
   <a href="https://github.com/alphanome-ai/sec-ai"><img src="https://img.shields.io/github/stars/alphanome-ai/sec-ai.svg?style=social&label=Star us on GitHub!" alt="GitHub stars"></a>
@@ -45,7 +45,7 @@
   <a href="https://sec.app.alphanome.dev">See Demo</a> |
   <a href="https://sec-ai.rtfd.io">Read Docs</a> |
   <a href="https://github.com/orgs/alphanome-ai/discussions">Join Discussions</a> |
-  <a href="https://discord.gg/w6bpyBW6">Join Discord</a>
+  <a href="https://discord.gg/2MC3uJhBxs">Join Discord</a>
   </b>
 </div>
 <br>
@@ -59,7 +59,7 @@ The project leverages [`alphanome-ai/sec-parser`](https://github.com/alphanome-a
 - Explore the [**Demo**](https://sec.app.alphanome.dev/)
 - Read the [**Documentation**](https://sec-ai.rtfd.io)
 - Join the [**Discussions**](https://github.com/orgs/alphanome-ai/discussions) to get help, propose ideas, or chat with the community
-- Become part of our [**Discord**](https://discord.gg/w6bpyBW6) community
+- Become part of our [**Discord**](https://discord.gg/2MC3uJhBxs) community
 - Report bugs in [**Issues**](https://github.com/alphanome-ai/sec-ai/issues)
 - Stay updated and contribute to our project's direction in [**Announcements**](https://github.com/orgs/alphanome-ai/discussions/categories/announcements) and [**Roadmap**](https://github.com/orgs/alphanome-ai/discussions/categories/roadmap-future-plans)
 - Learn How to [**Contribute**](https://github.com/alphanome-ai/sec-ai/blob/main/CONTRIBUTING.md)
