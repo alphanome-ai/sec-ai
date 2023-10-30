@@ -97,6 +97,8 @@ tasks:
 
   check-and-push:
     cmds:
+      - task: ensure-clean-working-tree
+      - git pull --no-edit
       - task: pre-push-preparation
       - git push
 
