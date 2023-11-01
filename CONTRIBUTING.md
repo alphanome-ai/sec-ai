@@ -4,7 +4,7 @@ Contributing to `sec-ai` is a rewarding way to learn and improve this open-sourc
 
 ## Find specific things to work on
 
-Check out out [Contribution Workflow](https://github.com/alphanome-ai/sec-parser/edit/main/CONTRIBUTING.md).
+Check out our [Contribution Workflow](https://github.com/alphanome-ai/sec-parser/edit/main/CONTRIBUTING.md).
 
 ## Understanding the Workflows
 
