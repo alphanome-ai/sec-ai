@@ -88,7 +88,9 @@ We're thrilled to inform you that the `sec-parser` project is the final prerequi
 
 To ensure your code remains functional even when we update `sec-ai`, it's recommended to avoid complex imports. Don't use intricate import statements that go deep into the package, like this:
 
+```
 from sec_ai.some_package.internal_utils import SomeInternalClass
+```
 
 Here are the suggested ways to import modules from `sec-ai`:
 
