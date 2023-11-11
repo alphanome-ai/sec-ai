@@ -6,7 +6,7 @@
   <!-- Using &nbsp; for alignment due to GitHub README limitations -->
   <b>Essentials ➔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
   <a href='https://sec-ai.readthedocs.io/en/latest/?badge=latest'><img src='https://readthedocs.org/projects/sec-ai/badge/?version=latest' alt='Documentation Status' /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/alphanome-ai/sec-ai.svg" alt="Licence"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/alphanome-ai/sec-ai?color=success" alt="Licence"></a>
   <a href="https://project-types.github.io/#federation"><img src="https://img.shields.io/badge/project%20type-federation-brightgreen" alt="Project Type: Federation"></a>
   <!-- NOTE: After changing stability level here, also change it in pyproject.toml -->
   <a href="https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#experimental"><img src="https://img.shields.io/badge/stability-experimental-orange.svg" alt="Experimental"></a>
@@ -18,7 +18,7 @@
   <br>
   <b>Quality ➔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
   <a href="https://app.codacy.com/gh/alphanome-ai/sec-ai/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://img.shields.io/codacy/grade/fe75201a60de4bc6b478052f6c4475b5"/></a>
-  <a href="https://codecov.io/gh/alphanome-ai/sec-ai"><img src="https://codecov.io/gh/alphanome-ai/sec-ai/graph/badge.svg?token=KJLA96CBCN" alt="codecov" /></a>
+  <!-- <a href="https://codecov.io/gh/alphanome-ai/sec-ai"><img src="https://codecov.io/gh/alphanome-ai/sec-ai/graph/badge.svg?token=KJLA96CBCN" alt="codecov" /></a> -->
   <a href="https://mypy-lang.org/"><img src="https://img.shields.io/badge/type%20checked-mypy-blue.svg"></a>
   <a href="https://github.com/psf/black"><img alt="Code Style: Black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
   <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff"></a>
@@ -29,8 +29,7 @@
   <a href="https://pypistats.org/packages/sec-ai"><img src="https://img.shields.io/pypi/dm/sec-ai.svg" alt="PyPI downloads"></a>
   <br>
   <b>Community ➔&nbsp;&nbsp;&nbsp;&nbsp;</b>
-  <a href="https://discord.gg/2MC3uJhBxs"><img alt="Discord" src="https://img.shields.io/discord/1164249739836018698"></a>
-  <a href="http://hits.dwyl.com/alphanome-ai/sec-ai"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Falphanome-ai%2Fsec-ai.json%3Fshow%3Dunique" alt="HitCount" /></a>
+  <a href="https://discord.gg/2MC3uJhBxs"><img alt="Discord" src="https://img.shields.io/discord/1164249739836018698?logo=discord&logoColor=white&style=flat"></a>
   <a href="https://twitter.com/alphanomeai"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/alphanomeai"></a>
   <a href="https://github.com/alphanome-ai/sec-ai"><img src="https://img.shields.io/github/stars/alphanome-ai/sec-ai.svg?style=social&label=Star us on GitHub!" alt="GitHub stars"></a>
 
@@ -78,9 +77,7 @@ To get started, first install the `sec-ai` package:
 pip install sec-ai
 ```
 
-> **Warning**
-We're thrilled to inform you that the `sec-parser` project is the final prerequisite for launching our eagerly anticipated feature, sec-ai. We're diligently working to ensure that it meets all the necessary standards and functionalities.<br><br><b>Stay Informed:</b> For detailed information and updates specific to `sec-parser` and to be the first to know when sec-ai is launched, please <a href="https://github.com/orgs/alphanome-ai/discussions/categories/announcements">follow our Announcements page</a>.<br><br><b>Contribute to sec-parser:</b> If you're as excited about `sec-parser` and the upcoming sec-ai feature as we are, we warmly invite you to get involved!<br><br>- Join our <a href="https://github.com/alphanome-ai/sec-parser/blob/main/CONTRIBUTING.md">Discussions</a> and connect with us on <a href="https://discord.gg/w6bpyBW6">Discord</a>.<br>- Please review our <a href="https://github.com/alphanome-ai/sec-parser/blob/main/CONTRIBUTING.md">Contribution Guide for sec-parser</a>.<br>- Explore the <a href="https://github.com/alphanome-ai/sec-parser/issues">current Issues</a> or propose new enhancements to the `sec-parser`.<br><br>Our targeted launch for sec-ai is approaching, and we're grateful for your continued anticipation and interest, which are invaluable to our endeavors.<br>
-
+Next, please visit the <a href="https://sec.app.alphanome.dev">Demo</a> and explore the corresponding source code to understand how to utilize the package effectively.
 
 # Best Practices
 
