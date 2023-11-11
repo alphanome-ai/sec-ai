@@ -19,14 +19,14 @@
   <b>Quality ➔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
   <a href="https://app.codacy.com/gh/alphanome-ai/sec-ai/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://img.shields.io/codacy/grade/fe75201a60de4bc6b478052f6c4475b5"/></a>
   <!-- <a href="https://codecov.io/gh/alphanome-ai/sec-ai"><img src="https://codecov.io/gh/alphanome-ai/sec-ai/graph/badge.svg?token=KJLA96CBCN" alt="codecov" /></a> -->
-  <a href="https://mypy-lang.org/"><img src="https://img.shields.io/badge/type%20checked-mypy-blue.svg"></a>
+  <a href="https://mypy-lang.org/"><img src="https://img.shields.io/badge/type%20checked-mypy-success.svg"></a>
   <a href="https://github.com/psf/black"><img alt="Code Style: Black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
   <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff"></a>
   <br>
   <b>Distribution ➔&nbsp;&nbsp;&nbsp;</b>
   <a href="https://badge.fury.io/py/sec-ai"><img src="https://badge.fury.io/py/sec-ai.svg" alt="PyPI version" /></a>
   <a href="https://pypi.org/project/sec-ai/"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/sec-ai"></a>
-  <a href="https://pypistats.org/packages/sec-ai"><img src="https://img.shields.io/pypi/dm/sec-ai.svg" alt="PyPI downloads"></a>
+  <a href="https://pypistats.org/packages/sec-ai"><img src="https://img.shields.io/pypi/dm/sec-ai?color=success" alt="PyPI downloads"></a>
   <br>
   <b>Community ➔&nbsp;&nbsp;&nbsp;&nbsp;</b>
   <a href="https://discord.gg/2MC3uJhBxs"><img alt="Discord" src="https://img.shields.io/discord/1164249739836018698?logo=discord&logoColor=white&style=flat"></a>
@@ -85,7 +85,9 @@ Next, please visit the <a href="https://sec.app.alphanome.dev">Demo</a> and expl
 
 To ensure your code remains functional even when we update `sec-ai`, it's recommended to avoid complex imports. Don't use intricate import statements that go deep into the package, like this:
 
+```
 from sec_ai.some_package.internal_utils import SomeInternalClass
+```
 
 Here are the suggested ways to import modules from `sec-ai`:
 
