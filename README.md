@@ -83,29 +83,25 @@ Next, please visit the <a href="https://sec.app.alphanome.dev">Demo</a> and expl
 
 ## How to Import Modules In Your Code
 
-To ensure your code remains functional even when we update `sec-ai`, it's recommended to avoid complex imports. Don't use intricate import statements that go deep into the package, like this:
+To ensure your code remains functional even when we change the internal structure of `sec-ai`, it's recommended to avoid deep imports. Here is an example of a deep import:
 
 ```
-from sec_ai.some_package.internal_utils import SomeInternalClass
+from sec_ai.something_package.internal_utils.core import SomeInternalClass
 ```
 
 Here are the suggested ways to import modules from `sec-ai`:
 
-### Basic Import
-- **Standard Way**: Use `import sec_ai as sai`  
-  This imports the main package as `sai`. You can then access its functionalities using `sai.` prefix.
+### Root Import (prefix)
+- **`import sec_ai as sp`**. This imports the main package as `sp`. You can then access its functionalities using `sp.` prefix.
 
-### Specific Import
-- **Package-Level Import**: Use `from sec_ai import SomeClass`  
-  This allows you to directly use `SomeClass` without any prefix.
+### Root Import (direct)
+- **`from sec_ai import SomeClass`**: This allows you to directly use `SomeClass` without any prefix.
 
-### Submodule Import
-- **Submodule**: Use `from sec_ai import some_package`  
-  This imports the `some_package` submodule, and you can access its classes and functions using `some_package.` prefix.
+### Submodule Import (prefix)
+- **`import sec_ai.something_package**`**: This imports the `something_package` submodule, and you can access its classes and functions using `something_package.` prefix.
 
-### More Specific Submodule Import
-- **Submodule-Level**: Use `from sec_ai.some_package import SomeClass`  
-  This imports a specific class `SomeClass` from the `some_package` submodule.
+### Submodule Import (direct)
+- **`from sec_ai.something_package import SomeClass`**: This imports a specific class `SomeClass` from the `something_package` submodule.
 
 > **Note**
 The main package `sec_ai` contains only the most common functionalities. For specialized tasks, please use submodule or submodule-level imports.
