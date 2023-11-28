@@ -42,7 +42,7 @@
 <br>
 <div align="center">
   <b>
-  <a href="https://sec.app.alphanome.dev">See Demo</a> |
+  <a href="https://sec.alphanome.app">See Demo</a> |
   <a href="https://sec-ai.rtfd.io">Read Docs</a> |
   <a href="https://github.com/orgs/alphanome-ai/discussions">Join Discussions</a> |
   <a href="https://discord.gg/2MC3uJhBxs">Join Discord</a>
@@ -56,7 +56,7 @@
 
 The project leverages [`alphanome-ai/sec-parser`](https://github.com/alphanome-ai/sec-parser) for its data extraction needs, an essential component that simplifies the parsing of SEC EDGAR HTML documents into a structured and analyzable format.
 
-- Explore the [**Demo**](https://sec.app.alphanome.dev/)
+- Explore the [**Demo**](https://sec.alphanome.app)
 - Read the [**Documentation**](https://sec-ai.rtfd.io)
 - Join the [**Discussions**](https://github.com/orgs/alphanome-ai/discussions) to get help, propose ideas, or chat with the community
 - Become part of our [**Discord**](https://discord.gg/2MC3uJhBxs) community
@@ -77,7 +77,7 @@ To get started, first install the `sec-ai` package:
 pip install sec-ai
 ```
 
-Next, please visit the <a href="https://sec.app.alphanome.dev">Demo</a> and explore the corresponding source code to understand how to utilize the package effectively.
+Next, please visit the <a href="https://sec.alphanome.app">Demo</a> and explore the corresponding source code to understand how to utilize the package effectively.
 
 # Best Practices
 
