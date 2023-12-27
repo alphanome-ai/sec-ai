@@ -39,7 +39,7 @@ if True:
     st.info(
         """
 ### 🚧 Under Construction 🚧
-We're thrilled to inform you that the `sec-parser` project is the final prerequisite for launching our eagerly anticipated feature, sec-ai. We're diligently working to ensure that it meets all the necessary standards and functionalities.
+We're thrilled to inform you that the [`sec-parser` project](https://github.com/alphanome-ai/sec-parser) is the final prerequisite for launching our eagerly anticipated feature, sec-ai. We're diligently working to ensure that it meets all the necessary standards and functionalities.
 
 **Stay Informed**: For detailed information and updates specific to `sec-parser` and to be the first to know when sec-ai is launched, please [follow our Announcements page](https://github.com/orgs/alphanome-ai/discussions/categories/announcements).
 
