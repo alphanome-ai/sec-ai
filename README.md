@@ -1,3 +1,6 @@
+> [!NOTE]
+> This project is currently under active development and has not been officially released to the public yet. If you're interested in staying up-to-date with the latest progress and being notified when the project is ready for use, please show your support by starring ⭐️ this repository. By starring the repo, you'll be among the first to know about any updates, releases, or important announcements. Thank you for your interest and patience!
+
 <p align="center">&nbsp;</p>
 <p align="center">
   <h1 align="center"><b>sec-ai</b></h1>
